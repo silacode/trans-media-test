@@ -12,4 +12,5 @@ body {
   width: 100%;
   place-items: center;
   background: scroll #dddddd;
+  -webkit-appearance: none;
 }
