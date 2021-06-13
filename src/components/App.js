@@ -38,8 +38,8 @@ const App = () => {
     }
   };
   return (
-    <div>
-      <div>Sign in</div>
+    <div className="App">
+      <div className="title">Sign in</div>
       <form onSubmit={onFormSubmit} action="/" method="post">
         <Input
           label="Email"
@@ -61,14 +61,14 @@ const App = () => {
         <Button name="Sign in" />
       </form>
 
-      <div>
-        <div>
+      <div className="content">
+        <div className="item">
           <a href="/">Forgot Your Password?</a>
         </div>
-        <div>
+        <div className="item">
           Don't have an account? <a href="/">Sign up</a>
         </div>
-        <div>
+        <div className="item">
           <a href="/">Resend email confirmation</a>
         </div>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Input = (props) => {
   return (
-    <div>
+    <div className="field">
       <div>
         <label htmlFor={props.label}>{props.label}</label>
       </div>
